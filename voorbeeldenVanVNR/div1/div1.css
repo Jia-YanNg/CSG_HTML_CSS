@@ -2,24 +2,24 @@ body {
     padding: 0;
     margin: 0;   
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
+    color: #12a332;
 }
 
 #container {
     margin: 2%;
-    border: 1px dashed #AAA;    
+    border: 1px dashed #0aa75e;    
 }
 
 #hoofdpagina {
     display: flex;
     width: 65%;
-    border: 1px dashed black;
+    border: 1px dashed rgb(141, 255, 150);
 }
 
 #links {
     width: 70%;
-    background-color: lightsteelblue;
-    padding: 5% 2% 0% 2%;
+    background-color: rgb(16, 56, 8);
+    padding: 5% 50% 5% 10%;
 }
 
 #rechts {
@@ -32,7 +32,7 @@ img {
 }
 
 #footer {
-    background-color: #333;
-    color: #DDD;
+    background-color: #95d868;
+    color: #52bd90;
     text-align: right;
 }
