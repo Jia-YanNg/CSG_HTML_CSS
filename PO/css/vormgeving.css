@@ -1,17 +1,68 @@
+*{
+    outline: 1px solid red;
+}
 html, body {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background: #5d524c;
-    color: #c8c3bf;
+    background: #ffffff;
+    color: #09d124;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     size: 14px;
-    padding-left: 10%;
+   
 }
 
-#vogel {
-    width: 225px;
-    height: auto;
+.container {
+    display: flex; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sidebar {
+    height: 750px;
+    width: 300px;
+    color: red;
+    background-color: rgb(255, 151, 241);
+
+}
+
+.shopitems {
+    height: 750px;
+    width: 100%;
+    color: rgb(68, 223, 21);
+    background-color: rgb(209, 74, 148);
+
+}
+
+.navigatiemenu {
+    height: 100px;
+    width: 100%;
+    color:blue;
+    background-color: rosybrown;
+    padding-left: 20%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+
+.navigatiemenuknoppen {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.menuknop {
+    height: 50px;
+    width: 50px;
+    color:rgb(30, 90, 40);
+    background-color: rgb(72, 18, 219);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'VampiroOne-Regular';
+}
+
+@font-face {
+    font-family: 'VampiroOne-Regular';
+    src: url('VampiroOne-Regular.ttf') format('ttf');
 }
