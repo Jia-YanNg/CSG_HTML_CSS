@@ -38,16 +38,17 @@ body {
 
 .navigatiemenu {
     height: 100px;
-    width: 100%;
+    width: 80%;
     color:blue;
     background-color: rosybrown;
-    padding-left: 20%;
-    padding-right: 7%;
-    padding-top: 3%;
-    padding-bottom: 0%;
+    padding-left: 8%;
+    padding-right: 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.navigatiemenuknoppen {
+.navigatiemenuknoppen{
+    padding-top: 30px;
     padding-left: 0%;
     padding-right: 0%;
 }
@@ -57,7 +58,7 @@ body {
     width: 50px;
     color:rgb(30, 90, 40);
     background-color: rgb(72, 18, 219);
-    padding-left: 5%;
+    padding-left: 60px;
     padding-right: 5%;
     font-family: 'VampiroOne-Regular';
 }
@@ -65,4 +66,21 @@ body {
 @font-face {
     font-family: 'VampiroOne-Regular';
     src: url('VampiroOne-Regular.ttf') format('ttf');
+}
+
+.sportlogo { 
+    float: left;
+    width: 160px;
+    padding-right: 40px;
+}
+
+.navigatiemenulogo {
+    height: 0px;
+    width: 0%;
+    color:rgb(99, 85, 6);
+    background-color: rosybrown;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
