@@ -1,14 +1,15 @@
 *{
     outline: 1px solid red;
 }
+
 html, body {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
     background: #ffffff;
-    color: #09d124;
+    color: #ffffff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     size: 14px;
    
@@ -23,24 +24,30 @@ body {
 .sidebar {
     height: 750px;
     width: 300px;
-    color: red;
-    background-color: rgb(255, 151, 241);
+    color: rgb(0, 0, 0);
+    background-color: rgba(78, 130, 228, 0.884);
 
 }
 
 .shopitems {
     height: 750px;
     width: 100%;
-    color: rgb(68, 223, 21);
-    background-color: rgb(209, 74, 148);
+    color: rgb(223, 68, 21);
+    background-color: rgba(99, 218, 248, 0.349);
 
+}
+
+#imageskykleding {
+    width: 350px;
+    height: auto;
+    margin: 30px;
 }
 
 .navigatiemenu {
     height: 100px;
     width: 80%;
     color:blue;
-    background-color: rosybrown;
+    background-color: rgb(41, 25, 110);
     padding-left: 8%;
     padding-right: 12%;
     padding-top: 10px;
@@ -56,8 +63,8 @@ body {
 .menuknop {
     height: 50px;
     width: 50px;
-    color:rgb(30, 90, 40);
-    background-color: rgb(18, 219, 51);
+    color:rgb(0, 0, 0);
+    background-color: rgb(186, 218, 255);
     padding-left: 60px;
     padding-right: 60px;
     font-family: 'VampiroOne-Regular';
@@ -77,10 +84,14 @@ body {
 .navigatiemenulogo {
     height: 0px;
     width: 0%;
-    color:rgb(99, 85, 6);
+    color: rgb(99, 85, 6);
     background-color: rosybrown;
     padding-left: 0%;
     padding-right: 0%;
     padding-top: 0%;
     padding-bottom: 0%;
+}
+
+#homeknop, #sportkledingknop, #sportschoenenknop, #mandknop {
+    background-color: rgb(172, 241, 10);
 }
