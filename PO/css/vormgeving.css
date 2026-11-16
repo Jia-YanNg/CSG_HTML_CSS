@@ -34,13 +34,29 @@ body {
     width: 100%;
     color: rgb(223, 68, 21);
     background-color: rgba(99, 218, 248, 0.349);
+    display: flex;
 
 }
 
 #imageskykleding {
-    width: 350px;
-    height: auto;
-    margin: 30px;
+    width: auto;
+    height: 350px;
+    margin: 40px;
+    outline: 20px solid rgb(37, 164, 223);
+}
+
+#sokken {
+    width: auto;
+    height: 350px;
+    margin: 40px;
+    outline: 20px solid rgb(37, 164, 223);
+}
+
+#muts {
+    width: auto;
+    height: 350px;
+    margin: 40px;
+    outline: 20px solid rgb(37, 164, 223);
 }
 
 .navigatiemenu {
