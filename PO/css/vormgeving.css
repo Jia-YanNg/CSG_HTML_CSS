@@ -22,7 +22,7 @@ body {
 }
 
 .sidebar {
-    height: 750px;
+    height: 830px;
     width: 300px;
     color: rgb(0, 0, 0);
     background-color: rgba(78, 130, 228, 0.884);
@@ -30,7 +30,7 @@ body {
 }
 
 .shopitems {
-    height: 750px;
+    height: 830px;
     width: 100%;
     color: rgb(223, 68, 21);
     background-color: rgba(99, 218, 248, 0.349);
@@ -38,25 +38,19 @@ body {
 
 }
 
-#imageskykleding {
+
+#sokken, #muts, #imageskykleding {
     width: auto;
     height: 350px;
     margin: 40px;
     outline: 20px solid rgb(37, 164, 223);
 }
 
-#sokken {
+#imageboulder, #zwemschoenen, #imagesadidas {
     width: auto;
-    height: 350px;
+    height: 280px;
     margin: 40px;
-    outline: 20px solid rgb(37, 164, 223);
-}
-
-#muts {
-    width: auto;
-    height: 350px;
-    margin: 40px;
-    outline: 20px solid rgb(37, 164, 223);
+    outline: 20px solid rgb(139, 37, 223);
 }
 
 .navigatiemenu {
@@ -94,6 +88,7 @@ body {
 .sportlogo { 
     float: left;
     width: 160px;
+    height: 110px;
     padding-right: 40px;
 }
 
@@ -110,4 +105,11 @@ body {
 
 #homeknop, #sportkledingknop, #sportschoenenknop, #mandknop {
     background-color: rgb(172, 241, 10);
+}
+
+.winkelwagen {
+    float: left;
+    width: auto;
+    height: 500px;
+    padding-right: 0px;
 }
