@@ -29,6 +29,17 @@ body {
 
 }
 
+.tekstsidebar {
+    height: 80px;
+    width: auto;
+    color:rgb(0, 0, 0);
+    background-color: rgba(186, 218, 255, 0);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    font-family: '';
+}
+
 .shopitems {
     height: 830px;
     width: 100%;
@@ -77,6 +88,10 @@ body {
     background-color: rgb(186, 218, 255);
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-family: 'VampiroOne-Regular';
 }
 
@@ -85,11 +100,22 @@ body {
     src: url('VampiroOne-Regular.ttf') format('ttf');
 }
 
+@font-face {
+    font-family: 'HennyPenny-Regular.ttf';
+    src: url(PO/HennyPenny-Regular.ttf) format('ttf');
+}
+
 .sportlogo { 
     float: left;
     width: 160px;
     height: 110px;
     padding-right: 40px;
+}
+
+.homehuisje {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;   /* centers horizontally */
 }
 
 .navigatiemenulogo {
@@ -112,4 +138,8 @@ body {
     width: auto;
     height: 500px;
     padding-right: 0px;
+}
+
+#notities {
+    padding-left: 5%;
 }
