@@ -1,6 +1,4 @@
-*{
-    outline: 1px solid red;
-}
+
 
 html, body {
     padding: 0px;
@@ -40,13 +38,23 @@ body {
     font-family: '';
 }
 
+.tekstsidebarcolofon {
+    height: 80px;
+    width: auto;
+    color:rgb(0, 0, 0);
+    background-color: rgba(186, 218, 255, 0);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    font-family: '';
+}
+
 .shopitems {
     height: 830px;
     width: 100%;
     color: rgb(223, 68, 21);
     background-color: rgba(99, 218, 248, 0.349);
     display: flex;
-
 }
 
 
@@ -130,7 +138,8 @@ body {
 }
 
 #homeknop, #sportkledingknop, #sportschoenenknop, #mandknop {
-    background-color: rgb(172, 241, 10);
+    background-color: rgba(18, 128, 93, 0.783);
+    outline: 20px solid rgb(18, 10, 74);
 }
 
 .winkelwagen {
@@ -138,8 +147,30 @@ body {
     width: auto;
     height: 500px;
     padding-right: 0px;
+    margin: 0 auto;   /* centers horizontally */
+    padding-top: 140px;
+}
+
+#tekstnotities {
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 #notities {
-    padding-left: 5%;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.colofonknop {
+    height: 50px;
+    width: 50px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(29, 191, 220);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'VampiroOne-Regular';
 }
