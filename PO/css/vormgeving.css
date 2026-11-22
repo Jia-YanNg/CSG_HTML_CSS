@@ -1,5 +1,3 @@
-
-
 html, body {
     padding: 0px;
     margin: 0px;
@@ -9,8 +7,7 @@ body {
     background: #ffffff;
     color: #ffffff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    size: 14px;
-   
+    font-size: 14px;
 }
 
 .container {
@@ -30,23 +27,23 @@ body {
 .tekstsidebar {
     height: 80px;
     width: auto;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     background-color: rgba(186, 218, 255, 0);
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 70px;
-    font-family: '';
+    font-family: 'HennyPenny', sans-serif;
 }
 
 .tekstsidebarcolofon {
-    height: 80px;
+    height: 200px;
     width: auto;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     background-color: rgba(186, 218, 255, 0);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 5px;
-    font-family: '';
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    font-family: 'HennyPenny', sans-serif;
 }
 
 .shopitems {
@@ -75,7 +72,7 @@ body {
 .navigatiemenu {
     height: 100px;
     width: 80%;
-    color:blue;
+    color: blue;
     background-color: rgb(41, 25, 110);
     padding-left: 8%;
     padding-right: 12%;
@@ -92,7 +89,7 @@ body {
 .menuknop {
     height: 50px;
     width: 50px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     background-color: rgb(186, 218, 255);
     padding-left: 60px;
     padding-right: 60px;
@@ -100,17 +97,17 @@ body {
     padding-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
-    font-family: 'VampiroOne-Regular';
+    font-family: 'VampiroOne', sans-serif;
 }
 
 @font-face {
-    font-family: 'VampiroOne-Regular';
-    src: url('VampiroOne-Regular.ttf') format('ttf');
+    font-family: 'VampiroOne';
+    src: url('../VampiroOne-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'HennyPenny-Regular.ttf';
-    src: url(PO/HennyPenny-Regular.ttf) format('ttf');
+    font-family: 'HennyPenny';
+    src: url('../HennyPenny-Regular.ttf') format('truetype');
 }
 
 .sportlogo { 
@@ -164,7 +161,7 @@ body {
 .colofonknop {
     height: 50px;
     width: 50px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     background-color: rgb(29, 191, 220);
     padding-left: 40px;
     padding-right: 40px;
@@ -172,5 +169,5 @@ body {
     padding-top: 15px;
     margin-left: 50px;
     margin-right: 50px;
-    font-family: 'VampiroOne-Regular';
+    font-family: 'VampiroOne';
 }
